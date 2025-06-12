@@ -2,6 +2,8 @@
 
 A robust and scalable Optical Character Recognition (OCR) API built with FastAPI, Tesseract OCR, and OpenCV. This project provides a production-ready solution for extracting text from images with advanced preprocessing capabilities and comprehensive error handling.
 
+---
+
 ## Table of Contents
 
 - Features
@@ -17,6 +19,8 @@ A robust and scalable Optical Character Recognition (OCR) API built with FastAPI
 - Contributing
 - Troubleshooting
 - License
+
+---
 
 ## Features
 
@@ -38,6 +42,8 @@ A robust and scalable Optical Character Recognition (OCR) API built with FastAPI
 - **Testing**: Unit tests with pytest for reliability
 - **Development Features**: Auto-reload for development and modular code structure
 
+---
+
 ## Architecture
 
 The project follows a modular architecture to ensure maintainability and scalability:
@@ -49,6 +55,8 @@ The project follows a modular architecture to ensure maintainability and scalabi
 - **Tests**: Unit tests for core functionality
 - **Logging**: Centralized logging configuration for debugging and monitoring
 
+---
+
 ## Prerequisites
 
 - **Python**: Version 3.9 or higher
@@ -58,6 +66,8 @@ The project follows a modular architecture to ensure maintainability and scalabi
   - Linux: `tesseract-ocr` and `libtesseract-dev`
   - macOS: `tesseract` via Homebrew
 - **Optional**: Virtual environment tool (e.g., `venv`, `virtualenv`)
+
+---
 
 ## Installation
 
@@ -103,6 +113,8 @@ The project follows a modular architecture to ensure maintainability and scalabi
    tesseract --version
    ```
 
+---
+
 ## Configuration
 
 The application uses a YAML configuration file located at `config/settings.yaml`. You can also override settings using a `.env` file.
@@ -130,6 +142,8 @@ To customize:
 2. Create a `.env` file in the project root with overridden values.
 
 Ensure the `temp_dir` and `log_file` directories exist or are writable. The application creates the `temp_dir` automatically if it doesn't exist.
+
+---
 
 ## Running the Application
 
@@ -193,6 +207,8 @@ curl -X POST "http://localhost:3000/ocr" \
 }
 ```
 
+---
+
 ## Usage Examples
 
 ### Using cURL
@@ -225,6 +241,8 @@ Tesseract supports multiple languages. Common language codes:
 - `deu`: German
 - `spa`: Spanish Check Tesseract documentation for the full list of supported languages.
 
+---
+
 ## Testing
 
 The project includes unit tests using pytest.
@@ -244,6 +262,8 @@ The project includes unit tests using pytest.
    The coverage report will be generated in the `htmlcov/` directory.
 
 **Note**: Some tests may require sample images. Update `tests/test_ocr.py` with actual test images for comprehensive testing.
+
+---
 
 ## Project Structure
 
@@ -268,6 +288,8 @@ ocr-api/
 └── .env                         # Optional environment variables
 ```
 
+---
+
 ## Contributing
 
 We welcome contributions! Please follow these steps:
@@ -278,12 +300,16 @@ We welcome contributions! Please follow these steps:
 4. Push to the branch (`git push origin feature/your-feature`)
 5. Create a Pull Request
 
+---
+
 **Coding Guidelines**:
 
 - Follow PEP 8 style guidelines
 - Include type hints
 - Add unit tests for new features
 - Update documentation as needed
+
+---
 
 ## Troubleshooting
 
@@ -301,6 +327,23 @@ We welcome contributions! Please follow these steps:
 
 For additional help, open an issue on the repository or check the logs in the configured `log_file`.
 
+---
+
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+```
+MIT License © 2025 Ibrahim Mohamed Ibrahim
+```
+
+---
+
+## Author & Contact
+
+```
+Developed by: Ibrahim Mohamed Ibrahim
+GitHub: https://github.com/eIbrahim67
+LinkedIn: https://www.linkedin.com/in/eibrahim67
+Email: ibrahim.mohamed.ibrahim.t@gmail.com
+```
+
+---
